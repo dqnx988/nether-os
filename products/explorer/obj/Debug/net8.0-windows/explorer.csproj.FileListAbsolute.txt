@@ -1,0 +1,19 @@
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\bin\Debug\net8.0-windows\NetherOS Explorer.exe
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\bin\Debug\net8.0-windows\NetherOS Explorer.deps.json
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\bin\Debug\net8.0-windows\NetherOS Explorer.runtimeconfig.json
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\bin\Debug\net8.0-windows\NetherOS Explorer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\bin\Debug\net8.0-windows\NetherOS Explorer.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\NetherOS Explorer_MarkupCompile.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\NetherOS Explorer.g.resources
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\explorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\explorer.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\explorer.AssemblyInfo.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\explorer.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\NetherOS Explorer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\refint\NetherOS Explorer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\NetherOS Explorer.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\explorer.genruntimeconfig.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\explorer\obj\Debug\net8.0-windows\ref\NetherOS Explorer.dll

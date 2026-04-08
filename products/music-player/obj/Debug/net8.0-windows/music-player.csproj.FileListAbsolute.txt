@@ -1,0 +1,19 @@
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\bin\Debug\net8.0-windows\NetherOS Music Player.exe
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\bin\Debug\net8.0-windows\NetherOS Music Player.deps.json
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\bin\Debug\net8.0-windows\NetherOS Music Player.runtimeconfig.json
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\bin\Debug\net8.0-windows\NetherOS Music Player.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\bin\Debug\net8.0-windows\NetherOS Music Player.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\NetherOS Music Player_MarkupCompile.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\NetherOS Music Player.g.resources
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\music-player.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\music-player.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\music-player.AssemblyInfo.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\music-player.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\NetherOS Music Player.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\refint\NetherOS Music Player.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\NetherOS Music Player.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\music-player.genruntimeconfig.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\music-player\obj\Debug\net8.0-windows\ref\NetherOS Music Player.dll

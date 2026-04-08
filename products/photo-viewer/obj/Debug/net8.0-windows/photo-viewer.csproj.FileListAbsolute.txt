@@ -1,0 +1,19 @@
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\NetherOS Photo Viewer_MarkupCompile.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\NetherOS Photo Viewer.g.resources
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\photo-viewer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\photo-viewer.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\photo-viewer.AssemblyInfo.cs
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\photo-viewer.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\bin\Debug\net8.0-windows\NetherOS Photo Viewer.exe
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\bin\Debug\net8.0-windows\NetherOS Photo Viewer.deps.json
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\bin\Debug\net8.0-windows\NetherOS Photo Viewer.runtimeconfig.json
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\bin\Debug\net8.0-windows\NetherOS Photo Viewer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\bin\Debug\net8.0-windows\NetherOS Photo Viewer.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\NetherOS Photo Viewer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\refint\NetherOS Photo Viewer.dll
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\NetherOS Photo Viewer.pdb
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\photo-viewer.genruntimeconfig.cache
+C:\Users\Dan\Desktop\projects\nether-os\products\photo-viewer\obj\Debug\net8.0-windows\ref\NetherOS Photo Viewer.dll

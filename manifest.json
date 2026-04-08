@@ -1,0 +1,45 @@
+{
+    "name": "NetherOS",
+    "short_name": "NetherOS",
+    "description": "NetherOS - custom software for windows 10/11",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "lang": "en",
+    "background_color": "#0f172a", 
+    "theme_color": "#0f172a",
+    "icons": [
+        {
+            "src": "/img/logo-small.svg",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/logo-small.svg",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/logo-large.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Explorer",
+            "short_name": "Explorer",
+            "description": "",
+            "url": "/products/explorer"
+        },
+        {
+            "name": "Terminal",
+            "short_name": "Terminal",
+            "description": "",
+            "url": "/products/terminal"
+        }
+    ]
+}
