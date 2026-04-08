@@ -17,15 +17,10 @@
             "purpose": "any"
         },
         {
-            "src": "/img/logo-small.svg",
+            "src": "/img/logo.svg",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
-        },
-        {
-            "src": "/img/logo-large.png",
-            "sizes": "512x512",
-            "type": "image/png"
         }
     ],
     "shortcuts": [
