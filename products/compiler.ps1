@@ -3,7 +3,6 @@ $VerbosePreference = "SilentlyContinue"
 $apps = @("explorer", "terminal", "calculator", "ui", "clocks")
 $runtimes = @("win-x64", "win-x86", "win-arm64")
 
-Set-Location products
 
 # Compiling (build)
 foreach ($app in $apps) {
