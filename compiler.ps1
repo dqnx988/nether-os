@@ -1,36 +1,32 @@
 $VerbosePreference = "SilentlyContinue"
 
-$apps = @("explorer", "terminal", "calculator", "ui", "clocks")
+# Setting variables
+$apps = @("calculator", "clocks", "explorer", "music-player", "photo-viewer", "server", "terminal", "ui")
 $runtimes = @("win-x64", "win-x86", "win-arm64")
 
-
-# Compiling (build)
+# Compilation (Build)
 foreach ($app in $apps) {
     foreach ($runtime in $runtimes) {
-        dotnet publish $app -c Release -r $runtime --self-contained false -p:PublishSingleFile=false
+        dotnet publish .\source-codes\$app -c Release -r $runtime --self-contained false -p:PublishSingleFile=false
     }
 }
 
+# Compressing full folder 
+foreach ($app in $apps) {
+    $sourcePathFullDir = @(".\source-codes\$app\bin", ".\source-codes\$app\obj")
+    $zipPathFullDir = ".\downloads\nether-os-$app-full-folder.zip"
+    Compress-Archive -Path $sourcePathFullDir -DestinationPath $zipPathFullDir -Force
+}
 
+# Compressing portable version
 foreach ($app in $apps) {
     foreach ($runtime in $runtimes) {
-        $publishPath = ".\$app\bin\Release\net8.0-windows\$runtime\publish"
-        $zipPath = ".\$app\nether-os-$app-$runtime-portable.zip"
-        Compress-Archive -Path $publishPath -DestinationPath $zipPath -Force
+        Compress-Archive -Path ".\source-codes\$app\bin\Release\net10.0-windows\$runtime\publish" -DestinationPath ".\downloads\nether-os-$app-$runtime-portable.zip" -Force
     }
 }
 
+# Cleaning source-codes dirs from obj and bin folders
 foreach ($app in $apps) {
-    foreach ($runtime in $runtimes) {
-        $publishPath = ".\$app\bin\Release\net8.0-windows\$runtime\publish"
-        $zipPath = ".\$app\nether-os-$app-$runtime-install.zip"
-        Compress-Archive -Path @($publishPath, ".\$app\installuser.ps1", ".\$app\installsystem.ps1") -DestinationPath $zipPath -Force
-    }
+    Remove-Item .\source-codes\$app\bin -Recurse -Force
+    Remove-Item .\source-codes\$app\obj -Recurse -Force
 }
-
-foreach ($app in $apps) {
-    Remove-Item ".\$app\bin" -Recurse -Force -ErrorAction SilentlyContinue
-    Remove-Item ".\$app\obj" -Recurse -Force -ErrorAction SilentlyContinue
-}
-
-Pause
