@@ -1,5 +1,0 @@
-E:\projects-git\nether-os\source-codes\explorer\bin\Release\net10.0-windows\win-x64\publish\NetherOS Explorer.exe
-E:\projects-git\nether-os\source-codes\explorer\bin\Release\net10.0-windows\win-x64\publish\NetherOS Explorer.dll
-E:\projects-git\nether-os\source-codes\explorer\bin\Release\net10.0-windows\win-x64\publish\NetherOS Explorer.deps.json
-E:\projects-git\nether-os\source-codes\explorer\bin\Release\net10.0-windows\win-x64\publish\NetherOS Explorer.runtimeconfig.json
-E:\projects-git\nether-os\source-codes\explorer\bin\Release\net10.0-windows\win-x64\publish\NetherOS Explorer.pdb

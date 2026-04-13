@@ -20,6 +20,14 @@ body {
     margin: 0;
 }
 
+button {
+    background: none;    /* Odstraní šedé pozadí */
+    border: none;        /* Odstraní rámeček */
+    padding: 0;          /* Odstraní vnitřní odsazení */
+    cursor: pointer;     /* Zajistí, že se při najetí změní kurzor na ruku */
+    outline: none;       /* Odstraní modrý obrys při kliknutí (volitelné) */
+}
+
 .box {
     display: flex;
     justify-content: center;

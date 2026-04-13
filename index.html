@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>NetherOS</title>
-        <!-- Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Favicon -->
-        <link rel="icon" type="image/svg+xml" href="img/logo-small.svg">
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="fonts.css">
-    </head>
+<head>
+    <title>NetherOS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="img/logo-small.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
 
-    <body>
-        <header>
-            <a href="/">
-                <img src="img/logo.svg" alt="">
-            </a>
-            
-        </header>
-        <br>
-        <main>
+<body>
+    <header>
+        <button onclick="showHome()">
+            <img src="img/logo.svg" alt="">
+        </button>
+    </header>
+    <br>
+    <main id="main">
+    </main>
+    <script>
+        const main = document.getElementById("main");
+
+        function showHome() {
+            document.title = "NetherOS"
+            main.innerHTML = `
+                <div class="box vertical">
+                    <button class="sub-box button" onclick="showProducts()">Products</button>
+                    <br>
+                    <button class="sub-box button" onclick="showHelp()">Help</button>
+                </div>
+            `;
+        }
+
+        function showProducts() {
+            document.title = "Products - NetherOS"
+            main.innerHTML = `
             <div class="box vertical">
-                <a class="sub-box button" href="products/">Products</a>
+                <button class="sub-box button" onclick="showHome()">
+                    <img src="img/go-back.svg" alt="">
+                </button>
                 <br>
-                <a class="sub-box button" href="help/">Help</a>
+                <button class="sub-box button" onclick="showCalculator">
+                    <img src="source-codes/calculator/img/logo.svg" alt="">
+                    Calculator
+                </button>
             </div>
-        </main>
-    </body>
+            `;
+        }
+
+        function showCalculator() {
+            document.title = "Calculator - Products - NetherOS"
+            main.innerHTML = `
+            <div class="box vertical">
+                <div class="sub-box ">
+            `
+        }
+
+        showHome();
+    </script>
+</body>
+
 </html>

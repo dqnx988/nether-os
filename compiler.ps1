@@ -11,18 +11,16 @@ foreach ($app in $apps) {
     }
 }
 
-# Compressing full folder 
-foreach ($app in $apps) {
-    $sourcePathFullDir = @(".\source-codes\$app\bin", ".\source-codes\$app\obj")
-    $zipPathFullDir = ".\downloads\nether-os-$app-full-folder.zip"
-    Compress-Archive -Path $sourcePathFullDir -DestinationPath $zipPathFullDir -Force
-}
-
 # Compressing portable version
 foreach ($app in $apps) {
     foreach ($runtime in $runtimes) {
         Compress-Archive -Path ".\source-codes\$app\bin\Release\net10.0-windows\$runtime\publish" -DestinationPath ".\downloads\nether-os-$app-$runtime-portable.zip" -Force
     }
+    
+}
+
+foreach ($runtime in $runtimes) {
+    Compress-Archive -Path ".\source-codes\ui\bin\Release\net10.0-windows10.0.19041.0\$runtime\publish" -DestinationPath ".\downloads\nether-os-ui-$runtime-portable.zip" -Force
 }
 
 # Cleaning source-codes dirs from obj and bin folders
