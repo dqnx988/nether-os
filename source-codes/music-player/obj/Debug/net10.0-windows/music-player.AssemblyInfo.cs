@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetherOS Music Player")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b9ecf12aa2e0bf174d3c0d43c759a1e45f3beb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c77941db5f9947c55828ab894f7c577969f4767")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetherOS Music Player")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetherOS Music Player")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

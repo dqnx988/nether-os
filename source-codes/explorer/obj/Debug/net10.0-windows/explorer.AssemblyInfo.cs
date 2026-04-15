@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetherOS Explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb893302f50ccbf9f931abbdd0175592896b064")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c77941db5f9947c55828ab894f7c577969f4767")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetherOS Explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetherOS Explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
