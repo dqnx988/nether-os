@@ -1,0 +1,22 @@
+E:\projects-git\nether-os\source-codes\explorer\bin\Debug\net10.0-windows\NetherOS Explorer.exe
+E:\projects-git\nether-os\source-codes\explorer\bin\Debug\net10.0-windows\NetherOS Explorer.deps.json
+E:\projects-git\nether-os\source-codes\explorer\bin\Debug\net10.0-windows\NetherOS Explorer.runtimeconfig.json
+E:\projects-git\nether-os\source-codes\explorer\bin\Debug\net10.0-windows\NetherOS Explorer.dll
+E:\projects-git\nether-os\source-codes\explorer\bin\Debug\net10.0-windows\NetherOS Explorer.pdb
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\PropertiesWindow.baml
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\PropertiesWindow.g.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\App.g.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\NetherOS Explorer_MarkupCompile.cache
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\NetherOS Explorer.g.resources
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.AssemblyInfoInputs.cache
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.AssemblyInfo.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.csproj.CoreCompileInputs.cache
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.sourcelink.json
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\NetherOS Explorer.dll
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\refint\NetherOS Explorer.dll
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\NetherOS Explorer.pdb
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\explorer.genruntimeconfig.cache
+E:\projects-git\nether-os\source-codes\explorer\obj\Debug\net10.0-windows\ref\NetherOS Explorer.dll

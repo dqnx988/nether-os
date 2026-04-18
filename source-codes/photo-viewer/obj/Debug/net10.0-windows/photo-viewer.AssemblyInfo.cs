@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetherOS Photo Viewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c77941db5f9947c55828ab894f7c577969f4767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22155aa563d8a7ab2e76174024aab95438d1fe8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetherOS Photo Viewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetherOS Photo Viewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
