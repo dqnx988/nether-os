@@ -1,30 +1,25 @@
 $VerbosePreference = "SilentlyContinue"
 
 # Setting variables
-$apps = @("calculator", "clocks", "explorer", "music-player", "photo-viewer", "server", "terminal", "ui")
+$apps = @("calculator", "clocks", "explorer", "music", "photos", "server", "terminal", "ui")
+
 $runtimes = @("win-x64", "win-x86", "win-arm64")
 
-# Compilation (Build)
+# Compiling (build)
 foreach ($app in $apps) {
     foreach ($runtime in $runtimes) {
-        dotnet publish .\source-codes\$app -c Release -r $runtime --self-contained false -p:PublishSingleFile=false
+        dotnet.exe publish ".\source-codes\$app" -c release -r $runtime --self-contained false -p:publishsinglefile=false --output .\downloads\$app
     }
 }
 
 # Compressing portable version
 foreach ($app in $apps) {
     foreach ($runtime in $runtimes) {
-        Compress-Archive -Path ".\source-codes\$app\bin\Release\net10.0-windows\$runtime\publish" -DestinationPath ".\downloads\nether-os-$app-$runtime-portable.zip" -Force
+        Compress-Archive -Path .\downloads\$app\$runtime\publish -DestinationPath .\downloads\nether-os-$app-$runtime-portable.zip
     }
-    
 }
 
-foreach ($runtime in $runtimes) {
-    Compress-Archive -Path ".\source-codes\ui\bin\Release\net10.0-windows10.0.19041.0\$runtime\publish" -DestinationPath ".\downloads\nether-os-ui-$runtime-portable.zip" -Force
-}
-
-# Cleaning source-codes dirs from obj and bin folders
+# Removing unnecessary folders in downloads folder
 foreach ($app in $apps) {
-    Remove-Item .\source-codes\$app\bin -Recurse -Force
-    Remove-Item .\source-codes\$app\obj -Recurse -Force
+    Remove-Item .\downloads\$app -Recurse -Force
 }
