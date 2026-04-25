@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZXqB0t2i8Q=",
+  "dgSpecHash": "mDaVzwcgLm0=",
   "success": true,
   "projectFilePath": "E:\\projects-git\\nether-os\\source-codes\\ui\\ui.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "C:\\Users\\Dan\\.nuget\\packages\\naudio.wasapi\\2.3.0\\naudio.wasapi.2.3.0.nupkg.sha512",
     "C:\\Users\\Dan\\.nuget\\packages\\naudio.winforms\\2.3.0\\naudio.winforms.2.3.0.nupkg.sha512",
     "C:\\Users\\Dan\\.nuget\\packages\\naudio.winmm\\2.3.0\\naudio.winmm.2.3.0.nupkg.sha512",
-    "C:\\Users\\Dan\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+    "C:\\Users\\Dan\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\Dan\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\10.0.5\\microsoft.netcore.app.host.win-arm64.10.0.5.nupkg.sha512"
   ],
   "logs": []
 }
