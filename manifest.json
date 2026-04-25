@@ -22,19 +22,5 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ],
-    "shortcuts": [
-        {
-            "name": "Explorer",
-            "short_name": "Explorer",
-            "description": "",
-            "url": "/products/explorer"
-        },
-        {
-            "name": "Terminal",
-            "short_name": "Terminal",
-            "description": "",
-            "url": "/products/terminal"
-        }
     ]
 }
