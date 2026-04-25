@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lq1cHTd+Rrk=",
+  "dgSpecHash": "KoAWl67tgLA=",
   "success": true,
   "projectFilePath": "E:\\projects-git\\nether-os\\source-codes\\terminal\\NetherOSTerminal.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dan\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\10.0.5\\microsoft.netcore.app.host.win-arm64.10.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
