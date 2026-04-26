@@ -123,7 +123,7 @@ namespace Explorer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NetherOS Explorer;V1.0.0.0;component/propertieswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NetherOS Explorer;component/propertieswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PropertiesWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

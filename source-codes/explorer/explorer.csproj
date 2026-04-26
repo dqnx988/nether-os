@@ -9,9 +9,7 @@
     <AssemblyName>NetherOS Explorer</AssemblyName>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
-  </ItemGroup>
+
 
   <ItemGroup>
     <Resource Include="img\desktop.png" />

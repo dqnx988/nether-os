@@ -180,6 +180,23 @@ namespace Explorer
             if (string.Equals(normalizedPath, musicPath, StringComparison.OrdinalIgnoreCase))
                 return _musicIcon;
 
+            string folderName = Path.GetFileName(normalizedPath);
+            if (!string.IsNullOrEmpty(folderName))
+            {
+                if (string.Equals(folderName, "Desktop", StringComparison.OrdinalIgnoreCase))
+                    return _desktopIcon;
+                if (string.Equals(folderName, "Downloads", StringComparison.OrdinalIgnoreCase))
+                    return _downloadsIcon;
+                if (string.Equals(folderName, "Documents", StringComparison.OrdinalIgnoreCase))
+                    return _documentsIcon;
+                if (string.Equals(folderName, "Pictures", StringComparison.OrdinalIgnoreCase))
+                    return _picturesIcon;
+                if (string.Equals(folderName, "Videos", StringComparison.OrdinalIgnoreCase))
+                    return _videosIcon;
+                if (string.Equals(folderName, "Music", StringComparison.OrdinalIgnoreCase))
+                    return _musicIcon;
+            }
+
             return _folderIcon;
         }
 
@@ -278,48 +295,61 @@ namespace Explorer
                 IDataObject? dataObject = System.Windows.Clipboard.GetDataObject();
                 if (dataObject is null) return;
 
-                string[]? files = dataObject.GetFormats();
-                if (files is null || files.Length == 0) return;
+                if (!dataObject.GetDataPresent(System.Windows.DataFormats.FileDrop)) return;
 
-                var fileCollection = dataObject.GetData(System.Windows.DataFormats.FileDrop) as StringCollection;
-                if (fileCollection is null || fileCollection.Count == 0) return;
+                string[]? files = dataObject.GetData(System.Windows.DataFormats.FileDrop) as string[];
+                if (files is null || files.Length == 0) return;
 
                 string currentPath = PathBar.Text;
                 if (string.IsNullOrEmpty(currentPath) || !Directory.Exists(currentPath)) return;
 
-                byte[]? dropEffect = dataObject.GetData("Preferred DropEffect") as byte[];
-                bool isCut = dropEffect is not null && dropEffect.Length >= 4 && dropEffect[0] == 2;
+                bool isCut = false;
+                if (dataObject.GetDataPresent("Preferred DropEffect"))
+                {
+                    object? rawEffect = dataObject.GetData("Preferred DropEffect");
+                    if (rawEffect is MemoryStream ms)
+                    {
+                        byte[] buffer = new byte[4];
+                        ms.Read(buffer, 0, 4);
+                        // DROPEFFECT_MOVE == 2
+                        isCut = BitConverter.ToInt32(buffer, 0) == 2;
+                    }
+                    else if (rawEffect is byte[] bytes && bytes.Length >= 4)
+                    {
+                        isCut = BitConverter.ToInt32(bytes, 0) == 2;
+                    }
+                }
 
-                foreach (string sourcePath in fileCollection)
+                foreach (string sourcePath in files)
                 {
                     string fileName = Path.GetFileName(sourcePath);
-                    string targetPath = Path.Combine(currentPath, fileName);
+                    string uniqueTarget = GetUniquePath(currentPath, fileName, "");
 
                     if (isCut)
                     {
                         if (Directory.Exists(sourcePath))
                         {
-                            Directory.Move(sourcePath, GetUniquePath(currentPath, fileName, ""));
+                            Directory.Move(sourcePath, uniqueTarget);
                         }
                         else if (File.Exists(sourcePath))
                         {
-                            File.Move(sourcePath, GetUniquePath(currentPath, fileName, ""));
+                            File.Move(sourcePath, uniqueTarget);
                         }
                     }
                     else
                     {
                         if (Directory.Exists(sourcePath))
                         {
-                            CopyDirectory(sourcePath, GetUniquePath(currentPath, fileName, ""));
+                            CopyDirectory(sourcePath, uniqueTarget);
                         }
                         else if (File.Exists(sourcePath))
                         {
-                            File.Copy(sourcePath, GetUniquePath(currentPath, fileName, ""));
+                            File.Copy(sourcePath, uniqueTarget);
                         }
                     }
                 }
 
-                System.Windows.Clipboard.Clear();
+                if (isCut) System.Windows.Clipboard.Clear();
                 LoadDirectory(currentPath);
             }
             catch (Exception ex)
@@ -497,7 +527,7 @@ namespace Explorer
             try
             {
                 IDataObject? dataObject = System.Windows.Clipboard.GetDataObject();
-                hasClipboardData = dataObject is not null && dataObject.GetFormats().Length > 0;
+                hasClipboardData = dataObject is not null && dataObject.GetDataPresent(System.Windows.DataFormats.FileDrop);
             }
             catch { }
             PasteMenuItem.IsEnabled = hasClipboardData && canCreateNew;
@@ -537,6 +567,32 @@ namespace Explorer
         private void NavigateToPictures(object sender, RoutedEventArgs e) => LoadDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures));
         private void NavigateToVideos(object sender, RoutedEventArgs e) => LoadDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyVideos));
         private void NavigateToMusic(object sender, RoutedEventArgs e) => LoadDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic));
+
+        private void GoUp_Click(object sender, RoutedEventArgs e)
+        {
+            if (Directory.Exists(PathBar.Text))
+            {
+                var parent = Directory.GetParent(PathBar.Text);
+                if (parent != null)
+                    LoadDirectory(parent.FullName);
+            }
+            else
+            {
+                ShowDrives();
+            }
+        }
+
+        private void PathBar_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                string path = PathBar.Text.Trim();
+                if (Directory.Exists(path))
+                    LoadDirectory(path);
+                else if (path.Equals("this pc", StringComparison.OrdinalIgnoreCase))
+                    ShowDrives();
+            }
+        }
     }
 
     public class FileItem
