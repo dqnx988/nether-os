@@ -20,6 +20,16 @@ namespace CalculatorApp
             this.Focus();
         }
 
+        private void Minimize_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
         private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key >= Key.D0 && e.Key <= Key.D9)
@@ -172,12 +182,20 @@ namespace CalculatorApp
         private void Result_Click(object sender, RoutedEventArgs e)
         {
             string expression = Display.Text;
-            if (string.IsNullOrEmpty(_operator) || !expression.Contains(_operator))
+            string displayOp = _operator switch
+            {
+                "/" => "÷",
+                "*" => "×",
+                "-" => "−",
+                _ => _operator
+            };
+
+            if (string.IsNullOrEmpty(_operator) || !expression.Contains(displayOp))
             {
                 return;
             }
 
-            string[] parts = expression.Split(new string[] { "+", "-", "*", "/" }, StringSplitOptions.None);
+            string[] parts = expression.Split(new string[] { displayOp }, StringSplitOptions.None);
             if (parts.Length != 2 || !double.TryParse(parts[0], out double num1) || !double.TryParse(parts[1], out double num2))
             {
                 Clear_Click(sender, e);

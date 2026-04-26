@@ -1,0 +1,20 @@
+E:\projects-git\nether-os\source-codes\photos\bin\Debug\net10.0-windows\NetherOS Photo Viewer.exe
+E:\projects-git\nether-os\source-codes\photos\bin\Debug\net10.0-windows\NetherOS Photo Viewer.deps.json
+E:\projects-git\nether-os\source-codes\photos\bin\Debug\net10.0-windows\NetherOS Photo Viewer.runtimeconfig.json
+E:\projects-git\nether-os\source-codes\photos\bin\Debug\net10.0-windows\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\bin\Debug\net10.0-windows\NetherOS Photo Viewer.pdb
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\App.g.cs
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\NetherOS Photo Viewer_MarkupCompile.cache
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\NetherOS Photo Viewer.g.resources
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.AssemblyInfoInputs.cache
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.AssemblyInfo.cs
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.csproj.CoreCompileInputs.cache
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.sourcelink.json
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\refint\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\NetherOS Photo Viewer.pdb
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\photo-viewer.genruntimeconfig.cache
+E:\projects-git\nether-os\source-codes\photos\obj\Debug\net10.0-windows\ref\NetherOS Photo Viewer.dll

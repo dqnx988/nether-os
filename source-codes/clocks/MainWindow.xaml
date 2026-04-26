@@ -1,46 +1,46 @@
 <Window x:Class="ClocksApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="NetherOS Clock" Height="380" Width="480" MinWidth="380" MinHeight="320"
-        Background="#1a1a1a" WindowStartupLocation="CenterScreen">
-    <Window.Resources>
-        <Style x:Key="ModernButton" TargetType="Button">
-            <Setter Property="Background" Value="#2d2d2d"/>
-            <Setter Property="Foreground" Value="#ffffff"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Padding" Value="18,10"/>
-            <Setter Property="FontSize" Value="13"/>
-            <Setter Property="FontWeight" Value="Medium"/>
+        Title="NetherOS Clock" Background=" dow.Resourc <Style x:Key="     <Setter Property="Background" Value="#2d2d2d"/>
+            <Setter #1o1t1aa     <Setter Property="FontSize" Valu
             <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border x:Name="border" Background="{TemplateBinding Background}"
-                                CornerRadius="6" Padding="{TemplateBinding Padding}">
-                            <Border.Effect>
-                                <DropShadowEffect ShadowDepth="0" BlurRadius="8" Opacity="0.3" Color="Black"/>
-                            </Border.Effect>
+            <Setter PrModt"nTemplate">
+                <Setter.Value>Bckg oundeTargetTy#ed2d2d="Button">
+                        <BordeForeName="border" B#ffffff{TemplateBinding Background}"
+                              B PdadThickgess"{Templat0g Padding}">
+                            <BPaedftg18,1
+                                <DropShadowEffec3 ShadowDepth="0" BlurRadius="8" Opacity="0.3" Color="Black"/>
+                            </Border.Effect>Meium
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#404040"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#00d4aa"/>
-                                <Setter Property="Foreground" Value="#0f0f0f"/>
+                                <Setter border" Background="{TemplateBrgding eackgNouna}="border" Property="Background" Value="#404040"/>
+                            </TrPgdingPding>
+                            <Bged P.EffectsPressed" Value="True">
+                                 Dr pShadowEffSct ShadowDrprh="0"tBlumRadeus="8" Oprc"eyr"0.3t yoloc="Blackk/>ground" Value="#00d4aa"/>
+                            </Border.Effect>
+                <Setter Prop<ContentPresentereHorizontalAlignment="Center"rty="Foreground" Value="#0f0f0f"/>
                             </Trigger>
                             <Trigger Property="IsEnabled" Value="False">
                                 <Setter Property="Foreground" Value="#555555"/>
-                                <Setter Property="Opacity" Value="0.5"/>
+                                <Setter Property="Opb" Value="0.5"/>"#404040/>
+                            </Trger>
+                           <rigerProperty="IsPressd" Vaue="True">
+                                <Setter TrgeName="bordr" Prpety="Bakground" Valu"#00d4aa"/>
+                                <Setter Propry="Forgrund" Vale="#0f0f0f"/>
+                            </Tiggr>
+                           <riggr Proerty="IsEnabed" Vlue="False">
+                                <Setr Property="Foregroun" Value="#555555"/>
+                                <Setter oprty="Opaciy" Value="0.5
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style x:Key="TabButton" TargetType="Button">
-            <Setter Property="Background" Value="Transparent"/>
+        <Style x:Key="Tabton" TargetType="Button">
+            <Setter Property="Background" Value="Transparentrent"/>
             <Setter Property="Foreground" Value="#666666"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Padding" Value="16,10"/>
@@ -51,25 +51,25 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border x:Name="border" Background="{TemplateBinding Background}"
-                                CornerRadius="8" Padding="{TemplateBinding Padding}">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
+                                Padding="{TemplateBinding Padding}iggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter Property="Foreground" Value="#aaaaaa"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
-                    </ControlTemplate>
+                    </ControlTemplaeForeaaaaaa
                 </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="DigitalText" TargetType="TextBox">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="#ffffff"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="FontFamily" Value="Consolas"/>
-            <Setter Property="CaretBrush" Value="#00d4aa"/>
-        </Style>
+          </Setter>/Controlemplate.Ts>
+                   </ContlTmpla>
+               </Setter.
+        </St</Setter>
+yle></Style>
+tyl x:Key="DigialTxt"TypTextBx">
+            <StteTrnsprent
+        <Styt" TargetType="TextBox">fff
+            =Srttground" ValueBorderThickffss"/>0/
+Property="BorderThickness" Valu/tFamilyConsolas
+Property="FontFamily" Value="CCsreaBrush"/>#0d4aa"ush" Value="#00d4aa"/>
+Sy
         <Style x:Key="AccentButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
             <Setter Property="Background" Value="#00d4aa"/>
             <Setter Property="Foreground" Value="#0f0f0f"/>
@@ -89,7 +89,7 @@
             <Grid Grid.Row="1">
                 <Grid Name="ClockPanel">
                     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <Border CornerRadius="16" Padding="40,30">
+                        <Border  Padding="40,30">
                             <StackPanel>
                                 <TextBox Name="ClockDisplay" Style="{StaticResource DigitalText}"
                                          FontSize="72" FontWeight="Light" TextAlignment="Center"
@@ -102,7 +102,7 @@
                 </Grid>
                 <Grid Name="StopwatchPanel" Visibility="Collapsed">
                     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <Border CornerRadius="16" Padding="45,35">
+                        <Border Padding="45,35">
                             <StackPanel>
                                 <TextBox Name="StopwatchDisplay" Style="{StaticResource DigitalText}"
                                          FontSize="60" FontWeight="Light" TextAlignment="Center"
@@ -118,7 +118,7 @@
                 </Grid>
                 <Grid Name="TimerPanel" Visibility="Collapsed">
                     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <Border CornerRadius="16" Padding="45,35">
+                        <Border  Padding="45,35">
                             <StackPanel>
                                 <TextBox Name="TimerDisplay" Style="{StaticResource DigitalText}"
                                          FontSize="60" FontWeight="Light" TextAlignment="Center"

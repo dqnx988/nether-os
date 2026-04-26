@@ -50,22 +50,22 @@
                             <StackPanel Orientation="Horizontal"/>
                         </ItemsPanelTemplate>
                     </ListBox.ItemsPanel>
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <Border Background="#2A2A2A"
-                                    CornerRadius="4"
-                                    Width="32"
-                                    Height="32"
-                                    Padding="5"
-                                    Margin="2,0"
-                                    Cursor="Hand"
-                                    MouseLeftButtonUp="OpenWindowItem_Click">
-                                <Image Source="{Binding Icon}" 
-                                       RenderOptions.BitmapScalingMode="HighQuality"
-                                       ToolTip="{Binding Title}"/>
-                            </Border>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
+                     <ListBox.ItemTemplate>
+                         <DataTemplate>
+                             <Border Background="Transparent"
+                                     CornerRadius="4"
+                                     Width="32"
+                                     Height="32"
+                                     Padding="5"
+                                     Margin="2,0"
+                                     Cursor="Hand"
+                                     MouseLeftButtonUp="OpenWindowItem_Click">
+                                 <Image Source="{Binding Icon}" 
+                                        RenderOptions.BitmapScalingMode="HighQuality"
+                                        ToolTip="{Binding Title}"/>
+                             </Border>
+                         </DataTemplate>
+                     </ListBox.ItemTemplate>
                 </ListBox>
 
                 <Border x:Name="DateTimeBorder"

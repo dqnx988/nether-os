@@ -577,7 +577,7 @@ function showProducts() {
                 <br>
 
                 <button class="sub-box button" onclick="showProductPage('Music Player', 'music-player')">
-                    <img src="source-codes/music-player/img/logo.svg" alt="">
+                    <img src="source-codes/music/img/logo.svg" alt="">
                     ${t.music}
                 </button>
                 <br>

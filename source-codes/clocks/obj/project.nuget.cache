@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "efLCVE+2p0Q=",
+  "dgSpecHash": "C+WXQAo8oKU=",
   "success": true,
   "projectFilePath": "E:\\projects-git\\nether-os\\source-codes\\clocks\\clocks.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dan\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\10.0.5\\microsoft.netcore.app.host.win-arm64.10.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
