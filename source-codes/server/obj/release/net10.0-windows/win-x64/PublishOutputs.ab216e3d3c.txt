@@ -1,0 +1,5 @@
+E:\projects-git\nether-os\downloads\server\win-x64\sources\server.exe
+E:\projects-git\nether-os\downloads\server\win-x64\sources\server.dll
+E:\projects-git\nether-os\downloads\server\win-x64\sources\server.deps.json
+E:\projects-git\nether-os\downloads\server\win-x64\sources\server.runtimeconfig.json
+E:\projects-git\nether-os\downloads\server\win-x64\sources\server.pdb

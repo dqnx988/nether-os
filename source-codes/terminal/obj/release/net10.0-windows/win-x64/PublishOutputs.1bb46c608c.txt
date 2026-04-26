@@ -1,0 +1,5 @@
+E:\projects-git\nether-os\downloads\terminal\NetherOS Terminal.exe
+E:\projects-git\nether-os\downloads\terminal\NetherOS Terminal.dll
+E:\projects-git\nether-os\downloads\terminal\NetherOS Terminal.deps.json
+E:\projects-git\nether-os\downloads\terminal\NetherOS Terminal.runtimeconfig.json
+E:\projects-git\nether-os\downloads\terminal\NetherOS Terminal.pdb

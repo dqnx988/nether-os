@@ -1,0 +1,15 @@
+E:\projects-git\nether-os\source-codes\terminal\bin\release\net10.0-windows\win-x64\NetherOS Terminal.exe
+E:\projects-git\nether-os\source-codes\terminal\bin\release\net10.0-windows\win-x64\NetherOS Terminal.deps.json
+E:\projects-git\nether-os\source-codes\terminal\bin\release\net10.0-windows\win-x64\NetherOS Terminal.runtimeconfig.json
+E:\projects-git\nether-os\source-codes\terminal\bin\release\net10.0-windows\win-x64\NetherOS Terminal.dll
+E:\projects-git\nether-os\source-codes\terminal\bin\release\net10.0-windows\win-x64\NetherOS Terminal.pdb
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.AssemblyInfoInputs.cache
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.AssemblyInfo.cs
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.csproj.CoreCompileInputs.cache
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.sourcelink.json
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOS Terminal.dll
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\refint\NetherOS Terminal.dll
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOS Terminal.pdb
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\NetherOSTerminal.genruntimeconfig.cache
+E:\projects-git\nether-os\source-codes\terminal\obj\release\net10.0-windows\win-x64\ref\NetherOS Terminal.dll

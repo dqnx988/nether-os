@@ -1,0 +1,21 @@
+E:\projects-git\nether-os\source-codes\music\bin\release\net10.0-windows\win-x64\NetherOS Music Player.exe
+E:\projects-git\nether-os\source-codes\music\bin\release\net10.0-windows\win-x64\NetherOS Music Player.deps.json
+E:\projects-git\nether-os\source-codes\music\bin\release\net10.0-windows\win-x64\NetherOS Music Player.runtimeconfig.json
+E:\projects-git\nether-os\source-codes\music\bin\release\net10.0-windows\win-x64\NetherOS Music Player.dll
+E:\projects-git\nether-os\source-codes\music\bin\release\net10.0-windows\win-x64\NetherOS Music Player.pdb
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\MainWindow.baml
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\App.baml
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\MainWindow.g.cs
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\App.g.cs
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\NetherOS Music Player_MarkupCompile.cache
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\NetherOS Music Player.g.resources
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.AssemblyInfoInputs.cache
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.AssemblyInfo.cs
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.csproj.CoreCompileInputs.cache
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.sourcelink.json
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\NetherOS Music Player.dll
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\refint\NetherOS Music Player.dll
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\NetherOS Music Player.pdb
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\music-player.genruntimeconfig.cache
+E:\projects-git\nether-os\source-codes\music\obj\release\net10.0-windows\win-x64\ref\NetherOS Music Player.dll

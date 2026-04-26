@@ -60,7 +60,7 @@
                                 <Setter TargetName="MainBorder" Property="Background" Value="{Binding Tag, RelativeSource={RelativeSource TemplatedParent}}"/>
                             </Trigger>
                             <Trigger Property="IsPressed" Value="True">
-                                <Setter TargetName="MainBorxplorerder" Property="RenderTransform">
+                                <Setter TargetName="MainBorder" Property="RenderTransform">
                                     <Setter.Value>
                                         <ScaleTransform ScaleX="0.93" ScaleY="0.93"/>
                                     </Setter.Value>

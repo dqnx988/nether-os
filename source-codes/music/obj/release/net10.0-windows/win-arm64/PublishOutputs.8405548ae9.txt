@@ -1,0 +1,5 @@
+E:\projects-git\nether-os\downloads\music\NetherOS Music Player.exe
+E:\projects-git\nether-os\downloads\music\NetherOS Music Player.dll
+E:\projects-git\nether-os\downloads\music\NetherOS Music Player.deps.json
+E:\projects-git\nether-os\downloads\music\NetherOS Music Player.runtimeconfig.json
+E:\projects-git\nether-os\downloads\music\NetherOS Music Player.pdb

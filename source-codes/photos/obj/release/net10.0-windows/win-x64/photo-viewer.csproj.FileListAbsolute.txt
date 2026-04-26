@@ -1,0 +1,20 @@
+E:\projects-git\nether-os\source-codes\photos\bin\release\net10.0-windows\win-x64\NetherOS Photo Viewer.exe
+E:\projects-git\nether-os\source-codes\photos\bin\release\net10.0-windows\win-x64\NetherOS Photo Viewer.deps.json
+E:\projects-git\nether-os\source-codes\photos\bin\release\net10.0-windows\win-x64\NetherOS Photo Viewer.runtimeconfig.json
+E:\projects-git\nether-os\source-codes\photos\bin\release\net10.0-windows\win-x64\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\bin\release\net10.0-windows\win-x64\NetherOS Photo Viewer.pdb
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\MainWindow.baml
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\MainWindow.g.cs
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\App.g.cs
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\NetherOS Photo Viewer_MarkupCompile.cache
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\NetherOS Photo Viewer.g.resources
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.AssemblyInfoInputs.cache
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.AssemblyInfo.cs
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.csproj.CoreCompileInputs.cache
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.sourcelink.json
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\refint\NetherOS Photo Viewer.dll
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\NetherOS Photo Viewer.pdb
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\photo-viewer.genruntimeconfig.cache
+E:\projects-git\nether-os\source-codes\photos\obj\release\net10.0-windows\win-x64\ref\NetherOS Photo Viewer.dll

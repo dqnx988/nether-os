@@ -1,0 +1,2 @@
+E:\projects-git\nether-os\source-codes\calculator\obj\release\net10.0-windows\win-arm64\App.g.cs
+E:\projects-git\nether-os\source-codes\calculator\obj\release\net10.0-windows\win-arm64\calculator_MarkupCompile.cache

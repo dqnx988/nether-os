@@ -1,0 +1,2 @@
+E:\projects-git\nether-os\source-codes\clocks\obj\release\net10.0-windows\win-x86\App.g.cs
+E:\projects-git\nether-os\source-codes\clocks\obj\release\net10.0-windows\win-x86\clocks_MarkupCompile.cache

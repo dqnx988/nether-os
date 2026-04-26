@@ -1,0 +1,4 @@
+E:\projects-git\nether-os\source-codes\explorer\obj\release\net10.0-windows\win-x86\PropertiesWindow.baml
+E:\projects-git\nether-os\source-codes\explorer\obj\release\net10.0-windows\win-x86\PropertiesWindow.g.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\release\net10.0-windows\win-x86\App.g.cs
+E:\projects-git\nether-os\source-codes\explorer\obj\release\net10.0-windows\win-x86\NetherOS Explorer_MarkupCompile.cache

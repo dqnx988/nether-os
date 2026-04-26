@@ -1,0 +1,14 @@
+E:\projects-git\nether-os\downloads\ui\win-x64\UiApp.exe
+E:\projects-git\nether-os\downloads\ui\win-x64\UiApp.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\UiApp.deps.json
+E:\projects-git\nether-os\downloads\ui\win-x64\UiApp.runtimeconfig.json
+E:\projects-git\nether-os\downloads\ui\win-x64\UiApp.pdb
+E:\projects-git\nether-os\downloads\ui\win-x64\Microsoft.Windows.SDK.NET.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\WinRT.Runtime.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.Asio.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.Core.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.Midi.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.Wasapi.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.WinForms.dll
+E:\projects-git\nether-os\downloads\ui\win-x64\NAudio.WinMM.dll
